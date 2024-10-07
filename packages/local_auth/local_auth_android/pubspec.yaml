@@ -20,11 +20,12 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_plugin_android_lifecycle:
-    git:
-      url: https://github.com/guillempuche/flutter-packages.git
-      path: packages/flutter_plugin_android_lifecycle
-      ref: main
+  flutter_plugin_android_lifecycle: ^2.0.17
+  # flutter_plugin_android_lifecycle:
+  # # git:
+  # #   url: https://github.com/guillempuche/flutter-packages.git
+  # #   path: packages/flutter_plugin_android_lifecycle
+  # #   ref: main
   intl: ">=0.17.0 <0.20.0"
   local_auth_platform_interface: ^1.0.1
 
